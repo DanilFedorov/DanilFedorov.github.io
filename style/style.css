@@ -274,11 +274,6 @@ body {
     white-space: nowrap;
 }
 
-.page-nav__link:focus {
-    border-radius: 6px;
-    border: 1px solid seagreen;
-}
-
 .page-nav__link--active {
     background-color: #fff;
     border: 2px solid #B8FFEC;
