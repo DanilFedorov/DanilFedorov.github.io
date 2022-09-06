@@ -12,8 +12,9 @@
     <header class="head">
         <div class="head__row head__row--nav">
             <button class="head-button head-button--menu"></button>
-            <a href="#">
-                <img src="img/logo.png" alt="CPS" class="head__logo logo">
+            <a href="#" class="head__logo">
+                <span class="head__logo--divider tablet"></span>
+                <img src="img/logo.png" alt="CPS">
             </a>
             <ul class="head__list tablet">
                 <li class="head__item">
@@ -38,8 +39,14 @@
         </div>
         <div class="head__row">
                 <h1 class="head__title title">Услуги и сервисы</h1>
-                <button class="head-button head-button--request monitor">Оставить заявку</button>
-                <button class="head-button head-button--condition monitor">Статус Ремонта</button>
+                <ul class="head__list monitor">
+                    <li class="head__item">
+                        <button class="head-button head-button--monitor head-button--monitor-request">Оставить заявку</button>
+                    </li>
+                    <li class="head__item">
+                        <button class="head-button head-button--monitor head-button--monitor-condition">Статус ремонта</button>
+                    </li>
+                </ul>  
         </div>
         <nav class="head__page-nav page-nav page-nav--gradient">
             <ul class="page-nav__list">
